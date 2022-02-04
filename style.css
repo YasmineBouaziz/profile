@@ -1,0 +1,129 @@
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  background-color: 	#FFF5EE;
+}
+
+#image-of-me{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img{
+  background-color: white;
+}
+
+.title{
+  background-color: white;
+}
+
+.intro{
+  color: #D8BFDC;
+  background-color: white;
+}
+
+#contact{
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 650px) {
+.container {
+    width: 300px;
+}
+}
+
+div {
+  display: block;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+#contact{
+  background-color: white;
+}
+
+.socials{
+  background-color: white;
+  opacity: 0.6;
+}
+
+.profile-link{
+  background-color: white;
+  display: inline;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500px;
+}
+
+
+.list-in-line{
+  list-style: none;
+  padding-left: 0px;
+  background-color: white;
+}
+
+.list-in-line li {
+  display: inline;
+  padding: 10px;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a{
+  text-decoration: none;
+}
+
+.socials:hover{
+  opacity: 1;
+}
